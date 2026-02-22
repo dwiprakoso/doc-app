@@ -4,11 +4,12 @@
     data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
 
     <!--begin::Sidebar Logo-->
-    <div class="app-sidebar-logo flex-shrink-0 d-none d-md-flex align-items-center px-8 py-6" id="kt_app_sidebar_logo">
-        <a href="{{ route('dashboard.index') }}" class="d-flex align-items-center">
-            <img alt="Logo" src="assets/media/logos/demo42.svg"
-                class="h-30px d-none d-sm-inline app-sidebar-logo-default theme-light-show" />
-            <img alt="Logo" src="assets/media/logos/demo42-dark.svg" class="h-30px h-lg-30px theme-dark-show" />
+    <div class="app-sidebar-logo flex-shrink-0 d-none d-md-flex align-items-center justify-content-center px-8 py-6"
+        id="kt_app_sidebar_logo">
+        <a href="{{ route('dashboard.index') }}" class="d-flex align-items-center justify-content-center">
+            <img alt="Logo" src="assets/media/draeger/logo.jpeg"
+                class="h-60px d-none d-sm-inline app-sidebar-logo-default theme-light-show" />
+            <img alt="Logo" src="assets/media/draeger/logo.jpeg" class="h-60px h-lg-60px theme-dark-show" />
         </a>
         <div class="d-flex align-items-center d-lg-none ms-n3 me-1" title="Show aside menu">
             <div class="btn btn-icon btn-active-color-primary w-30px h-30px" id="kt_aside_mobile_toggle">

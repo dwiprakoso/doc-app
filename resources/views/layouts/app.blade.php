@@ -15,19 +15,22 @@ License: For each use you must have a valid license purchased only from above li
 
 <head>
     <base href="../" />
-    <title>DOC Tracker - Project Management & Monitoring</title>
+    <title>DOC Tracker - Draeger Project Management & Monitoring</title>
     <meta charset="utf-8" />
     <meta name="description"
         content="DOC Tracker - Platform manajemen dan monitoring proyek terintegrasi untuk rumah sakit. Kelola tahapan project, canvasing, reporting, dan event presentasi dengan mudah." />
     <meta name="keywords"
-        content="doc tracker, project management, hospital management, monitoring, project tracking, rumah sakit, healthcare" />
+        content="doc tracker, project management, hospital management, monitoring, project tracking, rumah sakit, healthcare, draeger" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="DOC Tracker - Project Management Platform" />
+    <meta property="og:title" content="DOC Tracker - Draeger Project Management Platform" />
+    <meta property="og:description"
+        content="Platform manajemen dan monitoring proyek terintegrasi untuk rumah sakit dengan Draeger" />
+    <meta property="og:image" content="assets/media/draeger/logo.jpeg" />
     <meta property="og:site_name" content="DOC Tracker" />
     <link rel="canonical" href="{{ url('/') }}" />
-    <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+    <link rel="shortcut icon" href="assets/media/draeger/logo.jpeg" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
     <!--end::Fonts-->

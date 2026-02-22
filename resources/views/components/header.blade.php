@@ -9,8 +9,8 @@
                 <i class="ki-outline ki-abstract-14 fs-2"></i>
             </div>
             <!--begin::Logo image-->
-            <a href="{{ route('dashboard.index') }}">
-                <img alt="Logo" src="assets/media/logos/demo42-small.svg" class="h-30px" />
+            <a href="{{ route('dashboard.index') }}" class="d-flex align-items-center justify-content-center">
+                <img alt="Logo" src="assets/media/draeger/logo.jpeg" class="h-60px" />
             </a>
             <!--end::Logo image-->
         </div>
