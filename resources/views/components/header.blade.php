@@ -10,7 +10,7 @@
             </div>
             <!--begin::Logo image-->
             <a href="{{ route('dashboard.index') }}" class="d-flex align-items-center justify-content-center">
-                <img alt="Logo" src="assets/media/draeger/logo.jpeg" class="h-60px" />
+                <img alt="Logo" src="assets/media/draegr/logo.jpeg" class="h-60px" />
             </a>
             <!--end::Logo image-->
         </div>

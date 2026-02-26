@@ -30,7 +30,7 @@ License: For each use you must have a valid license purchased only from above li
     <meta property="og:image" content="assets/media/draeger/logo.jpeg" />
     <meta property="og:site_name" content="DOC Tracker" />
     <link rel="canonical" href="{{ url('/') }}" />
-    <link rel="shortcut icon" href="assets/media/draeger/logo.jpeg" />
+    <link rel="shortcut icon" href="assets/media/draegr/logo.jpeg" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
     <!--end::Fonts-->
