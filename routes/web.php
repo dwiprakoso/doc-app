@@ -6,7 +6,21 @@ use Illuminate\Support\Facades\Route;
 
 // Dashboard Routes
 Route::group(['prefix' => '', 'as' => 'dashboard.'], function () {
-    Route::get('/', [DashboardController::class, 'index'])->name('index');
+
+    // ==========================================
+    // DEFAULT ROUTE - Uncomment salah satu aja!
+    // ==========================================
+
+    // Option 1: Laravel Default Welcome Page
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('index');
+
+    // Option 2: Dashboard Controller
+    // Route::get('/', [DashboardController::class, 'index'])->name('index');
+
+    // ==========================================
+
     Route::get('/result', [DashboardController::class, 'result'])->name('result');
 });
 
